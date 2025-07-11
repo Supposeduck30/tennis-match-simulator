@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Match Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎾 Tennis Match Simulator</h1>
+        
+        <div class="input-section">
+            <div class="player-input">
+                <h3>Player 1</h3>
+                <input type="text" id="player1Name" placeholder="Enter Player 1 name" required>
+                <input type="number" id="player1Rank" placeholder="World Ranking" min="1" max="1000" required>
+            </div>
+            
+            <div class="vs-divider">VS</div>
+            
+            <div class="player-input">
+                <h3>Player 2</h3>
+                <input type="text" id="player2Name" placeholder="Enter Player 2 name" required>
+                <input type="number" id="player2Rank" placeholder="World Ranking" min="1" max="1000" required>
+            </div>
+        </div>
+        
+        <button id="simulateBtn" onclick="startSimulation()">Simulate Match</button>
+        
+        <div id="results" class="results-section">
+            <div id="matchHeader"></div>
+            <div id="coinToss"></div>
+            <div id="liveScore"></div>
+            <div id="gameByGame"></div>
+            <div id="finalResults"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
