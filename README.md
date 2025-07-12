@@ -11,7 +11,7 @@ This project is easy to use and was built with no external libraries. The simula
 ### 1.0.0
 #### - Green white and blue color scheme
 #### - Simulated it off of ranking and who is serving
-#### - Outputs th score of each game
+#### - Outputs the score of each game
 
 ## 💻 How to run locally
 If you want to use the website normally, just use the link (https://supposeduck30.github.io/tennis-match-simulator/). If you want to run it locally, here are the steps:
